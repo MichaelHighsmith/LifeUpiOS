@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73559D921617B7A00EFC6E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73559D821617B7A00EFC6E4 /* MainViewController.swift */; };
+		F73559DB2161804800EFC6E4 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73559DA2161804800EFC6E4 /* TaskViewController.swift */; };
+		F73559DD2161807E00EFC6E4 /* PagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73559DC2161807E00EFC6E4 /* PagesViewController.swift */; };
+		F73559DF2161888500EFC6E4 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73559DE2161888500EFC6E4 /* ShopViewController.swift */; };
+		F73559E121618B7300EFC6E4 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73559E021618B7300EFC6E4 /* RewardViewController.swift */; };
 		F75744C5215AF230007AFE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75744C4215AF230007AFE9B /* AppDelegate.swift */; };
-		F75744C7215AF230007AFE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75744C6215AF230007AFE9B /* ViewController.swift */; };
-		F75744CA215AF230007AFE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75744C8215AF230007AFE9B /* Main.storyboard */; };
 		F75744CC215AF233007AFE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F75744CB215AF233007AFE9B /* Assets.xcassets */; };
 		F75744CF215AF233007AFE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75744CD215AF233007AFE9B /* LaunchScreen.storyboard */; };
 		F75744DA215AF233007AFE9B /* LifeUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75744D9215AF233007AFE9B /* LifeUpTests.swift */; };
@@ -34,10 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F73559D821617B7A00EFC6E4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F73559DA2161804800EFC6E4 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		F73559DC2161807E00EFC6E4 /* PagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesViewController.swift; sourceTree = "<group>"; };
+		F73559DE2161888500EFC6E4 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		F73559E021618B7300EFC6E4 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
 		F75744C1215AF230007AFE9B /* LifeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75744C4215AF230007AFE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F75744C6215AF230007AFE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F75744C9215AF230007AFE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F75744CB215AF233007AFE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F75744CE215AF233007AFE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F75744D0215AF233007AFE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,11 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				F75744C4215AF230007AFE9B /* AppDelegate.swift */,
-				F75744C6215AF230007AFE9B /* ViewController.swift */,
-				F75744C8215AF230007AFE9B /* Main.storyboard */,
 				F75744CB215AF233007AFE9B /* Assets.xcassets */,
 				F75744CD215AF233007AFE9B /* LaunchScreen.storyboard */,
 				F75744D0215AF233007AFE9B /* Info.plist */,
+				F73559D821617B7A00EFC6E4 /* MainViewController.swift */,
+				F73559DA2161804800EFC6E4 /* TaskViewController.swift */,
+				F73559DC2161807E00EFC6E4 /* PagesViewController.swift */,
+				F73559DE2161888500EFC6E4 /* ShopViewController.swift */,
+				F73559E021618B7300EFC6E4 /* RewardViewController.swift */,
 			);
 			path = LifeUp;
 			sourceTree = "<group>";
@@ -231,7 +240,6 @@
 			files = (
 				F75744CF215AF233007AFE9B /* LaunchScreen.storyboard in Resources */,
 				F75744CC215AF233007AFE9B /* Assets.xcassets in Resources */,
-				F75744CA215AF230007AFE9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75744C7215AF230007AFE9B /* ViewController.swift in Sources */,
+				F73559D921617B7A00EFC6E4 /* MainViewController.swift in Sources */,
+				F73559DB2161804800EFC6E4 /* TaskViewController.swift in Sources */,
+				F73559DF2161888500EFC6E4 /* ShopViewController.swift in Sources */,
 				F75744C5215AF230007AFE9B /* AppDelegate.swift in Sources */,
+				F73559DD2161807E00EFC6E4 /* PagesViewController.swift in Sources */,
+				F73559E121618B7300EFC6E4 /* RewardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F75744C8215AF230007AFE9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F75744C9215AF230007AFE9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F75744CD215AF233007AFE9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
